@@ -1,0 +1,1 @@
+gcc -g tests/test_main.c src/bplus.c src/utils/visual.c -I./src -I./src/utils -o tests/test_main.exe
