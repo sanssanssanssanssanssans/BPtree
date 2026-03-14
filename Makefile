@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -I./src -I./src/utils -g
-SRC = src/bplus.c src/utils/visualize.c
+SRC = src/bplus.c src/utils/visual.c
 OBJ = $(SRC:.c=.o)
 TEST_SRC = tests/test_main.c
 TARGET = run_tests
